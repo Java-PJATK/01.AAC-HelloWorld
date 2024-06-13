@@ -1,6 +1,54 @@
 # 1.AAC-HelloWorld
 Listing 1 AAC-HelloWorld/Hello.java Page 4
 
+# Section 1: General Introduction
+
+## 1.1 Computers and Programming Languages
+1. **Hardware:** processors, memory, caches, disks and the like...
+2. **Operating System:** "system software that manages computer hardware and software resources and provides common services for computer programs... For hardware functions such as input/output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware" (Wikipedia). The operating system interacts with the file system, launches other programs, assigns resources, interacts with the user, and detects events (e.g., mouse movements, clicks, key presses).
+
+   On desktop computers, the dominant operating system is Microsoft Windows, followed by Apple’s macOS and various distributions of Linux. On smartphones and tablets, Google’s Android is the leader, followed by Apple’s iOS. Linux distributions are dominant in the server and super-computing sectors. According to Stack Overflow, among professional developers, 50% use Windows, 27% use macOS, and 23% use a Linux distribution.
+
+3. **Bits and Bytes, Hexadecimal and Octal System:**
+   - **Bit:** the smallest unit of information, with only two possible values (0 or 1).
+   - **Byte:** a sequence of 8 bits, with 256 possible sequences.
+   - **Hexadecimal Notation:** practical for representing bytes, as four bits correspond exactly to one hexadecimal digit (0-9, A-F).
+
+4. **Processor:** the component that executes instructions. Important components include registers, where data is stored and manipulated by instructions. Each processor has its own instruction set, consisting of basic instructions like setting a register to a value, copying data between memory and registers, arithmetic operations, etc.
+
+5. **Program:** a sequence of instructions, written in any programming language, which performs a specific task after being transformed into machine code.
+
+6. **Compiler:** a program that translates source code into machine code or an intermediate form that is later compiled further to machine code. For languages like Java, the compiled result is not directly executable but requires a virtual machine (JVM) for execution.
+
+7. **Programming Languages:**
+   - **Low-level:** machine code, assembly language.
+   - **High-level:** interpreted or compiled, categorized into imperative (procedural, object-oriented) and declarative (relational, functional, logic).
+
+   Popular programming languages include Java, C/C++, Python, and JavaScript, with preferences varying by domain (e.g., Fortran for scientific computing, R for statistics).
+
+8. **Algorithm:** "an unambiguous specification of how to solve a class of problems" (Wikipedia). Algorithms are step-by-step procedures to achieve a desired outcome, such as sorting a collection of numbers or finding the greatest common divisor of two numbers.
+
+   The term "algorithm" is derived from the name of the 9th-century Persian scholar Muhammad ibn Musa al-Khwarizmi and the Greek word "arithmos" (number).
+
+## 1.2 What is Java?
+Java is a high-level imperative programming language with object-oriented features and elements of functional programming. It was designed with emphasis on:
+1. Platform independence
+2. Simplicity
+3. Safety (e.g., no direct memory access, garbage collector, security management)
+4. Efficiency
+5. Rich standard library
+
+**Features of Java:**
+- Designed by Sun Microsystems in the mid-1990s for commercial use.
+- Compiled to platform-independent bytecode.
+- Executed by the Java Virtual Machine (JVM), which interprets bytecode and dynamically translates it into machine code for execution.
+- Syntax closely resembles that of C/C++.
+- Includes a comprehensive standard library for graphics, multithreading, network programming, database access, multimedia processing, security, microprogramming, and data format handling (XML, JSON, etc.).
+
+**Installation:** Obtain JDK (Java Development Kit) from Oracle’s website. JDK includes the JVM for running Java programs and tools for developing Java applications, including the compiler.
+
+**Documentation:** Available online or downloadable as a zip file.
+
 # Section 2. Compiling and running a Java program  
 
 * Program in Java is a collection of classes (what class really means, we will learn shortly). Normally, each class is written in a separate (text) file with extension .java.  
