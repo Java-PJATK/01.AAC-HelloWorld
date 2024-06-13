@@ -1,7 +1,4 @@
-# 1.AAC-HelloWorld
-Listing 1 AAC-HelloWorld/Hello.java Page 4
-
-# Section 1: General Introduction
+# Section 1. General Introduction
 
 ## 1.1 Computers and Programming Languages
 1. **Hardware:** processors, memory, caches, disks and the like...
@@ -60,6 +57,8 @@ Java is a high-level imperative programming language with object-oriented featur
 * Names of classes (and therefore of files containing their definition) should start with a capital letter; strictly speaking, it is not required, but to avoid vexing trouble, we should always stick to this convention.  
 
 Let us look at a very simple example: a program which consists of only one class (and, consequently, one file) which contains nothing but the function main. The program just prints (i.e., writes to the screen) “Hello, World”.  
+
+# Listing 1 AAC-HelloWorld/Hello.java Page 4
 
 ```java
 // AAC-HelloWorld/Hello.java
